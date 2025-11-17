@@ -28,7 +28,7 @@ tk.Label(root, text="Contraseña:", font=("Arial", 12), bg="#fdf1f1").pack(pady=
 entry_contrasena = tk.Entry(root, width=30, show="*")
 entry_contrasena.pack(pady=5)
 
-tk.Button(root, text="Ingresar", bg="#e74c3c", fg="white", font=("Arial", 11, "bold"),
+tk.Button(root, text="Ingresar", bg="#ffcbdb", fg="white", font=("Arial", 11, "bold"),
           width=20, command=verificar_login).pack(pady=20)
 
 root.mainloop()
