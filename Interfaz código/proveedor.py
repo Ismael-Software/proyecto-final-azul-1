@@ -25,6 +25,6 @@ combo_tipo.pack(pady=5)
 tk.Label(root, text="Producto que provee:", font=("Arial", 12)).pack()
 tk.Entry(root, width=40).pack(pady=5)
 
-tk.Button(root, text="Enviar", bg="black", fg="white", width=15).pack(pady=10)
+tk.Button(root, text="Enviar", bg="#FFCBDB", fg="black", width=15).pack(pady=10)
 
 root.mainloop()
