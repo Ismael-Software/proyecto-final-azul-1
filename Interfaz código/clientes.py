@@ -2,7 +2,7 @@ import tkinter as tk
 
 root = tk.Tk()
 root.title("JEZNAY - Clientes")
-root.geometry("400x400")
+root.geometry("401x401")
 
 tk.Label(root, text="Clientes", font=("Arial", 20, "bold")).pack(pady=15)
 
