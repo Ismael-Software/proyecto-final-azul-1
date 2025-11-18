@@ -2,6 +2,9 @@ import pymysql
 
 
 try:
+
+
+
     conexion = pymysql.connect(
         host = "localhost",
         user = "root",
