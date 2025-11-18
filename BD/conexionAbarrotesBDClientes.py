@@ -1,5 +1,6 @@
 import pymysql
 
+
 try:
     conexion = pymysql.connect(
         host = "localhost",
@@ -10,7 +11,7 @@ try:
     print("Conexión exitosa :)")
 
     consulta = conexion.cursor()
-    textoConsulta = "SELECT * FROM productosdelatienda"
+    textoConsulta = "SELECT * FROM clientes"
     consulta.execute(textoConsulta)
     resultado = consulta.fetchall()
     for x in resultado:
